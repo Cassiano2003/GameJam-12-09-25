@@ -22,7 +22,7 @@ O objetivo é criar um jogo do zero em pouco tempo, explorando criatividade e tr
 | 🧑‍💻 **Dev Back-End** | **Cassiano Carvalho de Souza** | Lógica do jogo, sistemas internos |
 | 👩‍💻 **Dev Front-End** | **Kimberly L. Stachelski C.** | Interface e menus |
 | 🎨 **Design de Backgrounds** | **Aron Petta Sarabia** | Criação de cenários e Fases |
-| 🧱 **Design de Personagens** | **Lucas Arruda dabunda** | Design de Personagens e itens |
+| 🧱 **Design de Personagens** | **Lucas Arruda daabunda** | Design de Personagens e itens |
 
 ---
 
