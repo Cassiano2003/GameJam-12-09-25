@@ -20,9 +20,9 @@ O objetivo é criar um jogo do zero em pouco tempo, explorando criatividade e tr
 | Função | Integrante | Responsabilidade |
 |:--|:--|:--|
 | 🧑‍💻 **Dev Back-End** | **Cassiano Carvalho de Souza** | Lógica do jogo, sistemas internos |
-| 👩‍💻 **Dev Front-End** | **Kim** | Interface e menus |
-| 🎨 **Design de Backgrounds** | **Aron** | Criação de cenários |
-| 🧱 **Design de Itens** | **Lucas** | Design de objetos e itens |
+| 👩‍💻 **Dev Front-End** | **Kimberly L. Stachelski C.** | Interface e menus |
+| 🎨 **Design de Backgrounds** | **Aron Petta Sarabia** | Criação de cenários e Fases |
+| 🧱 **Design de Personagens** | **Lucas Arruda dabunda** | Design de Personagens e itens |
 
 ---
 
