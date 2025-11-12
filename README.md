@@ -11,7 +11,7 @@ O objetivo é criar um jogo do zero em pouco tempo, explorando criatividade e tr
 > 🧩 *Tema da Game Jam:* _(adicione aqui o tema oficial)_  
 > 💡 *Estilo de jogo:* _(ex: plataforma, puzzle, etc.)_  
 > 🎨 *Engine:* GameMaker Studio 2 / 2024  
-> ⏱️ *Duração:* _(ex: 72 horas)_
+> ⏱️ *Duração:* _(72 horas)_
 
 ---
 
@@ -49,5 +49,5 @@ O objetivo é criar um jogo do zero em pouco tempo, explorando criatividade e tr
 1. Clone o repositório:
    ```bash
    git clone git@github.com:SEU_USUARIO/GameJam-12-09-25.git
-2. Colocar no GamaMaker:
+2. Colocar no GamaMaker:\
     Vai em **importar** e procure o arquivo **Jogo_GameJam.yyp** que esta no projeto e pronto, o jogo vai ser caregado no **GameMaker**.
