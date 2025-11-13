@@ -2,6 +2,7 @@
 move_speed = 4;
 hspeed = 0;
 vspeed = 0;
+direction = 0;
 // Sistema de depth para 2.5D
 depth = 0; // Objetos com Y maior aparecem atrás
 // Create Event
@@ -35,3 +36,7 @@ qnt_historico = 100;
 invulneravel = false;
 tempo_invulneravel = 90; // 1.5 segundos (60 FPS)
 timer_invulneravel = 0;
+
+
+shoot_cooldown = 0;
+shoot_delay = 15; // frames entre tiros

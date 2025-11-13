@@ -20,15 +20,6 @@ if ( keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_do
 x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height);
 
-/*
-if (direction == 90 ){
-	array_push(historico_move,[x,y +  47,direction]);
-}else if (direction == 270){
-	array_push(historico_move,[x,y - 47,direction]);
-}else if(direction == 180){
-	array_push(historico_move,[x + 47,y,direction]);
-}else{
-}*/
 
 array_push(historico_move,[x,y,direction]);
 if(array_length(historico_move) > qnt_historico){
@@ -77,6 +68,32 @@ if (invulneravel) {
         image_alpha = 1.0; // Volta ao normal
     }
 }
+
+
+// Tiro
+if (shoot_cooldown > 0) {
+    shoot_cooldown--;
+}
+
+
+if (keyboard_check_pressed(vk_space) && shoot_cooldown <= 0) {
+    var bullet = instance_create_layer(x, y, "Instances", obj_tiro);
+	
+    with (bullet) {
+        // Direção e velocidade
+        direction = other.direction;
+		image_angle = other.direction;
+        speed = 8;
+        
+    }
+    
+    shoot_cooldown = shoot_delay;
+}
+
+
+
+
+
 
 
 //Funçlao de morte
