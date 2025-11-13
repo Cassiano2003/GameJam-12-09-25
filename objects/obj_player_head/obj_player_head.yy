@@ -13,8 +13,8 @@
   "name":"obj_player_head",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Obj Player",
+    "path":"folders/Objetos/Obj Player.yy",
   },
   "parentObjectId":{
     "name":"obj_player_bory",

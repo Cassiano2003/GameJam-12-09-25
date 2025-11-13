@@ -10,8 +10,8 @@
   "name":"obj_player_bory",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Obj Player",
+    "path":"folders/Objetos/Obj Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"obj_food",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Obj Itens",
+    "path":"folders/Objetos/Obj Itens.yy",
   },
   "parentObjectId":null,
   "persistent":false,
