@@ -4,12 +4,12 @@ hspeed = 0;
 vspeed = 0;
 
 //Gera o corpo
-tamanho_inicial = 3;
+tamanho= 3;
 distancia_dos_corpos = 50;
 corpo = [];
 crecimento_pendente = 0;
 
-for (var i=0; i < tamanho_inicial;i++){
+for (var i=0; i < tamanho;i++){
 	var seg_x = x - (i * distancia_dos_corpos);
 	var seg_y = y;
 	
@@ -24,3 +24,7 @@ for (var i=0; i < tamanho_inicial;i++){
 historico_move = [];
 qnt_historico = 100;
 
+
+invulneravel = false;
+tempo_invulneravel = 90; // 1.5 segundos (60 FPS)
+timer_invulneravel = 0;

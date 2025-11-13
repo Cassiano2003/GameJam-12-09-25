@@ -35,28 +35,7 @@ for (var i = 0; i < array_length(corpo); i++) {
     corpo[i].direction = dados[2]; // Direção naquele momento
 }
 
-/*
-// Movimento orgânico do corpo
-for (var i = 0; i < array_length(corpo); i++) {
-    var alvo_x, alvo_y;
-    
-    if (i == 0) {
-        // Primeiro segmento segue a cabeça
-        alvo_x = x;
-        alvo_y = y;
-    } else {
-        // Segmentos seguem o anterior
-        alvo_x = corpo[i-1].x;
-        alvo_y = corpo[i-1].y;
-    }
-    
-    // Movimento suave em direção ao alvo
-    corpo[i].x = lerp(corpo[i].x, alvo_x, 0.3) - lengthdir_x(distancia_dos_corpos,direction);
-    corpo[i].y = lerp(corpo[i].y, alvo_y, 0.3) - lengthdir_y(distancia_dos_corpos,direction);
-}*/
-
 //Funçao de crecimento 
-
 if(crecimento_pendente > 0){
 	var ultimo_gomo = corpo[array_length(corpo)- 1];
 	var gomo_x = ultimo_gomo.x;
@@ -70,6 +49,41 @@ if(crecimento_pendente > 0){
 	
 	crecimento_pendente --;
 }
+
+// Controle de invulnerabilidade
+if (invulneravel) {
+    timer_invulneravel--;
+    
+    // Efeito de piscar (opcional)
+    image_alpha = (timer_invulneravel mod 10 < 5) ? 0.5 : 1.0;
+    
+    if (timer_invulneravel <= 0) {
+        invulneravel = false;
+        image_alpha = 1.0; // Volta ao normal
+    }
+}
+
+
+//Funçlao de morte
+if (array_length(corpo) < 2){
+	room_restart();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Impedir de sair da sala - APÓS todo o movimento
