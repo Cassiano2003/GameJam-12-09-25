@@ -1,5 +1,5 @@
 // Step Event
-var _target = instance_find(obj_player, 0);
+var _target = instance_find(obj_player_head, 0);
 var _distance = point_distance(x, y, _target.x, _target.y);
 
 // Máquina de estados
