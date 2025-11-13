@@ -39,7 +39,7 @@ O objetivo é criar um jogo do zero em pouco tempo, explorando criatividade e tr
 
 - 🧩 GameMaker Studio 2 / 2024  
 - 💻 Git & GitHub  
-- 🎨 Krita / Aseprite  
+- 🎨 Krita / Aseprite / IbisPaint 
 - 🔊 Audacity / Bfxr  
 
 ---
@@ -50,4 +50,4 @@ O objetivo é criar um jogo do zero em pouco tempo, explorando criatividade e tr
    ```bash
    git clone git@github.com:SEU_USUARIO/GameJam-12-09-25.git
 2. Colocar no GamaMaker:\
-    Vai em **importar** e procure o arquivo **Jogo_GameJam.yyp** que esta no projeto e pronto, o jogo vai ser caregado no **GameMaker**.
+    Vai em **importar** e procure o arquivo **Jogo_GameJam.yyp** que esta no projeto e pronto, o jogo vai ser carregado no **GameMaker**.
