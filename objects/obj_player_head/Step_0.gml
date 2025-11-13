@@ -28,7 +28,7 @@ if(array_length(historico_move) > qnt_historico){
 
 // Cada segmento pega uma posição específica do histórico
 for (var i = 0; i < array_length(corpo); i++) {
-    var index_historico = array_length(historico_move) - (i * 10) - 1 ;
+    var index_historico = array_length(historico_move) - ((i+1) * 10) - 1 ;
     index_historico = clamp(index_historico, 0, array_length(historico_move) - 1);
     
     var dados = historico_move[index_historico];
