@@ -19,6 +19,7 @@
   },
   "name":"Jogo_GameJam",
   "resources":[
+    {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_food","path":"objects/obj_food/obj_food.yy",},},
     {"id":{"name":"obj_player_bory","path":"objects/obj_player_bory/obj_player_bory.yy",},},
@@ -29,6 +30,7 @@
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"spr_player_bory","path":"sprites/spr_player_bory/spr_player_bory.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_tiro","path":"sprites/spr_tiro/spr_tiro.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

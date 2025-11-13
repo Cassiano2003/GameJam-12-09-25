@@ -2,6 +2,13 @@
 move_speed = 4;
 hspeed = 0;
 vspeed = 0;
+// Sistema de depth para 2.5D
+depth = 0; // Objetos com Y maior aparecem atrás
+// Create Event
+sprite_index = spr_player;
+image_xscale = 1;
+image_yscale = 1;
+z = 10; // Altura
 
 //Gera o corpo
 tamanho= 3;

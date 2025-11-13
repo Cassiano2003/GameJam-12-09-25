@@ -1,4 +1,5 @@
 var nova_direcao = direction;
+depth = -y;
 
 if ( keyboard_check(vk_right) ) nova_direcao =  0;
 if ( keyboard_check(vk_left)) nova_direcao = 180;
@@ -19,6 +20,16 @@ if ( keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_do
 x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height);
 
+/*
+if (direction == 90 ){
+	array_push(historico_move,[x,y +  47,direction]);
+}else if (direction == 270){
+	array_push(historico_move,[x,y - 47,direction]);
+}else if(direction == 180){
+	array_push(historico_move,[x + 47,y,direction]);
+}else{
+}*/
+
 array_push(historico_move,[x,y,direction]);
 if(array_length(historico_move) > qnt_historico){
 	array_delete(historico_move,0,1);
@@ -30,9 +41,9 @@ for (var i = 0; i < array_length(corpo); i++) {
     index_historico = clamp(index_historico, 0, array_length(historico_move) - 1);
     
     var dados = historico_move[index_historico];
-    corpo[i].x = dados[0];
+    corpo[i].x = dados[0] ;
     corpo[i].y = dados[1];
-    corpo[i].direction = dados[2]; // Direção naquele momento
+    corpo[i].direction = dados[2];  // Direção naquel direçao
 }
 
 //Funçao de crecimento 

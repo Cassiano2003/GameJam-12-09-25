@@ -1,3 +1,5 @@
+depth = - y;
+
 // Step Event
 var _target = instance_find(obj_player_head, 0);
 var _distance = point_distance(x, y, _target.x, _target.y);
@@ -44,8 +46,6 @@ switch(state) {
         }
         break;
 }
-
-
 
 // Impedir de sair da sala - APÓS todo o movimento
 function clamp_to_room() {
