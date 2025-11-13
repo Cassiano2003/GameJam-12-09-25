@@ -13,8 +13,8 @@
   "name":"obj_player_head",
   "overriddenProperties":[],
   "parent":{
-    "name":"Jogo_GameJam",
-    "path":"Jogo_GameJam.yyp",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":{
     "name":"obj_player_bory",

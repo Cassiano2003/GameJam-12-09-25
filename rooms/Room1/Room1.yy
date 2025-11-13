@@ -37,8 +37,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"Jogo_GameJam",
-    "path":"Jogo_GameJam.yyp",
+    "name":"Fases",
+    "path":"folders/Fases.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Jogo_GameJam",
-    "path":"Jogo_GameJam.yyp",
+    "name":"Sprites Player",
+    "path":"folders/Sprites/Sprites Player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -9,8 +9,8 @@
   "name":"obj_cam",
   "overriddenProperties":[],
   "parent":{
-    "name":"Jogo_GameJam",
-    "path":"Jogo_GameJam.yyp",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Jogo_GameJam",
-    "path":"Jogo_GameJam.yyp",
+    "name":"Sprites Fundos-Fases",
+    "path":"folders/Sprites/Sprites Fundos-Fases.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

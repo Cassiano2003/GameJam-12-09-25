@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Jogo_GameJam",
-    "path":"Jogo_GameJam.yyp",
+    "name":"Sprite Enemy",
+    "path":"folders/Sprites/Sprite Enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

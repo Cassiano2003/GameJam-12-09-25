@@ -10,8 +10,8 @@
   "name":"obj_tiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Jogo_GameJam",
-    "path":"Jogo_GameJam.yyp",
+    "name":"Obj Enemy",
+    "path":"folders/Objetos/Obj Enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,
