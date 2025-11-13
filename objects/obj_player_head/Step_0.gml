@@ -61,6 +61,10 @@ if(crecimento_pendente > 0){
 	crecimento_pendente --;
 }
 
+if (keyboard_check_direct(vk_escape)){
+	instance_create_layer(x,y,"Instances",obj_tiro);
+}
+
 // Controle de invulnerabilidade
 if (invulneravel) {
     timer_invulneravel--;
