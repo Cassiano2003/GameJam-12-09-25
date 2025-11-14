@@ -1,25 +1,36 @@
-// Create Event
+//Escolja do player
+global.player = 0;
+switch(global.player){
+	case 0:
+		front  = sergio_front;
+		back = sergio_back;
+		right = sergio_right;
+		left = sergio_left;
+	break;
+	case 1:
+		front  = claudio_front;
+		back = claudio_back;
+		right = claudio_right;
+		left = claudio_left;
+	break;
+}
+
+// Movimentação
 move_speed = 4;
 andando = false;
-habilidades = [];
-array_push(habilidades,true);
-array_push(habilidades,false);
-array_push(habilidades,false);
-array_push(habilidades,false);
-array_push(habilidades,false);
 hspeed = 0;
 vspeed = 0;
 direction = 0;
+
 // Sistema de depth para 2.5D
 depth = 0; // Objetos com Y maior aparecem atrás
-// Create Event
 sprite_index = sergio_right;
 image_xscale = 1;
 image_yscale = 1;
 z = 10; // Altura
 
-//Gera o corpo
-tamanho_inicial= 4;
+//Gera o corpo inicial
+tamanho_inicial= 1;
 distancia_dos_corpos = 20;
 corpo = [];
 crecimento_pendente = 0;

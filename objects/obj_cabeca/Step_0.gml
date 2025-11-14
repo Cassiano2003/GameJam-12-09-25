@@ -11,13 +11,13 @@ if (abs (nova_direcao - direction) == 90 || abs (nova_direcao - direction) == 27
 }
 
 if(direction == 90){
-	sprite_index = sergio_back;
+	sprite_index = back;
 }else if  (direction == 270){
-	sprite_index = sergio_front;
+	sprite_index = front;
 }else if  (direction == 180){
-	sprite_index = sergio_left;
+	sprite_index = left;
 }else{
-	sprite_index = sergio_right;
+	sprite_index = right;
 }
 
 // Movimento
@@ -61,136 +61,6 @@ if (andando){
 		corpo[i].x = dados[0] ;
 		corpo[i].y = dados[1];
 		corpo[i].direction = dados[2];  // Direção naquel direçao
-		
-		//Switch para escolher qual vai a 
-		switch(i){
-			case 0:
-				if(habilidades[i]){
-					if(direction == 90){
-					corpo[i].sprite_index = inicialS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index =inicialS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = inicialS_left;
-					}else{
-						corpo[i].sprite_index = inicialS_right;
-					}
-				}else{
-					if(direction == 90){
-						corpo[i].sprite_index = vazioS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index = vazioS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = vazioS_left_walk;
-					}else{
-						corpo[i].sprite_index = vazioS_right_walk;
-					}
-				}
-			break;
-			case 1:
-				if(habilidades[i]){
-					if(direction == 90){
-					corpo[i].sprite_index = inicialS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index =inicialS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = inicialS_left;
-					}else{
-						corpo[i].sprite_index = inicialS_right;
-					}
-				}else{
-					if(direction == 90){
-						corpo[i].sprite_index = vazioS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index = vazioS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = vazioS_left_walk;
-					}else{
-						corpo[i].sprite_index = vazioS_right_walk;
-					}
-				}
-			break;
-			case 2:
-				if(habilidades[i]){
-					if(direction == 90){
-					corpo[i].sprite_index = inicialS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index =inicialS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = inicialS_left;
-					}else{
-						corpo[i].sprite_index = inicialS_right;
-					}
-				}else{
-					if(direction == 90){
-						corpo[i].sprite_index = vazioS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index = vazioS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = vazioS_left_walk;
-					}else{
-						corpo[i].sprite_index = vazioS_right_walk;
-					}
-				}
-			break;
-			case 3:
-				if(habilidades[i]){
-					if(direction == 90){
-					corpo[i].sprite_index = inicialS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index =inicialS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = inicialS_left;
-					}else{
-						corpo[i].sprite_index = inicialS_right;
-					}
-				}else{
-					if(direction == 90){
-						corpo[i].sprite_index = vazioS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index = vazioS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = vazioS_left_walk;
-					}else{
-						corpo[i].sprite_index = vazioS_right_walk;
-					}
-				}
-			break;
-			case 4:
-				if(habilidades[i]){
-					if(direction == 90){
-					corpo[i].sprite_index = inicialS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index =inicialS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = inicialS_left;
-					}else{
-						corpo[i].sprite_index = inicialS_right;
-					}
-				}else{
-					if(direction == 90){
-						corpo[i].sprite_index = vazioS_front;
-					}else if  (direction == 270){
-						corpo[i].sprite_index = vazioS_back;
-					}else if  (direction == 180){
-						corpo[i].sprite_index = vazioS_left_walk;
-					}else{
-						corpo[i].sprite_index = vazioS_right_walk;
-					}
-				}
-			break;
-			default:
-				if(direction == 90){
-					corpo[i].sprite_index = vazioS_front;
-				}else if  (direction == 270){
-					corpo[i].sprite_index = vazioS_back;
-				}else if  (direction == 180){
-					corpo[i].sprite_index = vazioS_left_walk;
-				}else{
-					corpo[i].sprite_index = vazioS_right_walk;
-				}
-			break;
-		}
 	}
 }
 
@@ -212,27 +82,15 @@ if (invulneravel) {
 if (shoot_cooldown > 0) {
     shoot_cooldown--;
 }
-
-
 if (keyboard_check_pressed(vk_space) && shoot_cooldown <= 0) {
     var bullet = instance_create_layer(x, y, "Instances", obj_tiro);
 	
     with (bullet) {
         // Direção e velocidade
         direction = other.direction;
-		image_angle = other.direction;
+		x = other.x;
+		y = other.y;
         speed = 8;
-        if(direction == 90){
-			x -= 15;
-			y -= 25;
-		}else if  (direction == 270){
-			x += 40;
-			y += 2;
-		}else if  (direction == 180){
-			y += 20;
-		}else{
-			y -= 20;
-		}
     }
     
     shoot_cooldown = shoot_delay;
@@ -244,10 +102,6 @@ if (keyboard_check_pressed(vk_space) && shoot_cooldown <= 0) {
 if (array_last(corpo) < tamanho_inicial){
 	room_restart();
 }
-
-
-
-
 
 
 // Impedir de sair da sala - APÓS todo o movimento

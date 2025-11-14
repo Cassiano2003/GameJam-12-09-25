@@ -1,10 +1,17 @@
-// Cada segmento sabe sua posição na centopeia
-indice = 0;
-eh_cabeca = false;
-// Sistema de depth para 2.5D
-depth = 0; // Objetos com Y maior aparecem atrás
-sprite_index = inicialS_right;
-// Create Event
-image_xscale = 1;
-image_yscale = 1;
-z = 10; // Altura*/
+event_inherited();
+switch(global.player){
+	case 0:
+		front  = inicialS_front;
+		back = inicialS_back;
+		right = inicialS_right;
+		left = inicialS_left;
+	break;
+	case 1:
+		front  = inicialC_front;
+		back = inicialC_back;
+		right = inicialC_right;
+		left = inicialC_left;
+	break;
+}
+
+sprite_index = right;
