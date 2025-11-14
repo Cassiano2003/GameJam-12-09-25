@@ -17,3 +17,7 @@ sprite_index = spr_enemy;
 image_xscale = 2;
 image_yscale = 2;
 z = 10; // Altura
+
+//Atributos
+vida = 5;
+dado = 1;

@@ -7,4 +7,4 @@ cam_distance = 0; // Distância do alvo
 cam_smoothness = 0.1; // Suavidade do movimento
 
 // Alvo da câmera
-target = obj_player_head; // Ou obj_player, dependendo da sua estrutura
+target = obj_cabeca; // Ou obj_player, dependendo da sua estrutura
