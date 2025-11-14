@@ -98,11 +98,9 @@ if (keyboard_check_pressed(vk_space) && shoot_cooldown <= 0) {
     shoot_cooldown = shoot_delay;
 }
 
-
-
-//Funçlao de morte
+//Funcao de morte
 if (array_length(corpo) < tamanho_inicial){
-	room_restart();
+	room_goto(rm_gameOver);
 }
 
 
