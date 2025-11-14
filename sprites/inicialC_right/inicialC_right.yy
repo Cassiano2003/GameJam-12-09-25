@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Cláudio",
-    "path":"folders/Sprites/Habilidade/Primeira/Cláudio.yy",
+    "path":"folders/Sprites/Sprites Habilidade/Primeira/Cláudio.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

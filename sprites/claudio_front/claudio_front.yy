@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Cláudio Exclusivo",
-    "path":"folders/Sprites/Cabeça/Cláudio Exclusivo.yy",
+    "path":"folders/Sprites/Sprites Player/Cabeça/Cláudio Exclusivo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

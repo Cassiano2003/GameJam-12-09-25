@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites Player",
-    "path":"folders/Sprites/Sprites Player.yy",
+    "name":"Padrao",
+    "path":"folders/Sprites/Sprites Habilidade/Padrao.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

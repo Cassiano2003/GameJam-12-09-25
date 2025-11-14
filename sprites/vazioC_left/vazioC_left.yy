@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Cláudio",
-    "path":"folders/Sprites/vazio/Cláudio.yy",
+    "path":"folders/Sprites/Sprites Player/Corpo/Cláudio.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

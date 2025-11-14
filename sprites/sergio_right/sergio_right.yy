@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Sérgio Exclusivo",
-    "path":"folders/Sprites/Cabeça/Sérgio Exclusivo.yy",
+    "path":"folders/Sprites/Sprites Player/Cabeça/Sérgio Exclusivo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

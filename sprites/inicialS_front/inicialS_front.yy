@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sergio",
-    "path":"folders/Sprites/Habilidade/Primeira/Sergio.yy",
+    "path":"folders/Sprites/Sprites Habilidade/Primeira/Sergio.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

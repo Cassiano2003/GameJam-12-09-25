@@ -33,7 +33,7 @@
   "origin":0,
   "parent":{
     "name":"Sergio",
-    "path":"folders/Sprites/vazio/Sergio.yy",
+    "path":"folders/Sprites/Sprites Player/Corpo/Sergio.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
