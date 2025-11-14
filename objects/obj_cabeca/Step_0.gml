@@ -1,5 +1,5 @@
+event_inherited();
 var nova_direcao = direction;
-depth = -y;
 
 if ( keyboard_check(vk_right) ) nova_direcao =  0;
 if ( keyboard_check(vk_left)) nova_direcao = 180;
@@ -8,16 +8,6 @@ if ( keyboard_check(vk_up)) nova_direcao= 90;
 
 if (abs (nova_direcao - direction) == 90 || abs (nova_direcao - direction) == 270){
 	direction = nova_direcao;
-}
-
-if(direction == 90){
-	sprite_index = back;
-}else if  (direction == 270){
-	sprite_index = front;
-}else if  (direction == 180){
-	sprite_index = left;
-}else{
-	sprite_index = right;
 }
 
 // Movimento
@@ -82,6 +72,7 @@ if (invulneravel) {
 if (shoot_cooldown > 0) {
     shoot_cooldown--;
 }
+
 if (keyboard_check_pressed(vk_space) && shoot_cooldown <= 0) {
     var bullet = instance_create_layer(x, y, "Instances", obj_tiro);
 	

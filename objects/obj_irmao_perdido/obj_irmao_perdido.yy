@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_corpo_tiro",
+  "%Name":"obj_irmao_perdido",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_corpo_tiro",
+  "name":"obj_irmao_perdido",
   "overriddenProperties":[],
   "parent":{
     "name":"Obj Player",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"inicialS_right",
-    "path":"sprites/inicialS_right/inicialS_right.yy",
+    "name":"irm_oC_right",
+    "path":"sprites/irm_oC_right/irm_oC_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,

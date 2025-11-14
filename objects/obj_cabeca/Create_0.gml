@@ -1,3 +1,4 @@
+event_inherited();
 //Escolja do player
 global.player = 0;
 switch(global.player){
@@ -22,12 +23,7 @@ hspeed = 0;
 vspeed = 0;
 direction = 0;
 
-// Sistema de depth para 2.5D
-depth = 0; // Objetos com Y maior aparecem atrás
-sprite_index = sergio_right;
-image_xscale = 1;
-image_yscale = 1;
-z = 10; // Altura
+sprite_index = right;
 
 //Gera o corpo inicial
 tamanho_inicial= 1;
@@ -60,7 +56,3 @@ qnt_historico = 100;
 invulneravel = false;
 tempo_invulneravel = 90; // 1.5 segundos (60 FPS)
 timer_invulneravel = 0;
-
-
-shoot_cooldown = 0;
-shoot_delay = 15; // frames entre tiros

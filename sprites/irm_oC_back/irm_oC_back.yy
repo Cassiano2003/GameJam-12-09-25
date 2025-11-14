@@ -23,7 +23,7 @@
   ],
   "name":"irm_oC_back",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Cláudio",
     "path":"folders/Sprites/Habilidade/Segunda/Cláudio.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":3,
     "yorigin":0,
   },
   "swatchColours":null,

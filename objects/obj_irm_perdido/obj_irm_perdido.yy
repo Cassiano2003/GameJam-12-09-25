@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_corpo_tiro",
+  "%Name":"obj_irm_perdido",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_corpo_tiro",
+  "name":"obj_irm_perdido",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj Player",
-    "path":"folders/Objetos/Obj Player.yy",
+    "name":"Obj Itens",
+    "path":"folders/Objetos/Obj Itens.yy",
   },
-  "parentObjectId":{
-    "name":"obj_corpo",
-    "path":"objects/obj_corpo/obj_corpo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"inicialS_right",
-    "path":"sprites/inicialS_right/inicialS_right.yy",
+    "name":"spr_irm_perdido",
+    "path":"sprites/spr_irm_perdido/spr_irm_perdido.yy",
   },
   "spriteMaskId":null,
   "visible":true,

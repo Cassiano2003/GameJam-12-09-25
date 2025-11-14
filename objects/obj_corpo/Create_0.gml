@@ -7,3 +7,7 @@ depth = 0; // Objetos com Y maior aparecem atrás
 image_xscale = 1;
 image_yscale = 1;
 z = 10; // Altura*/
+
+//Para os tiros
+shoot_cooldown = 0;
+shoot_delay = 15; // frames entre tiros

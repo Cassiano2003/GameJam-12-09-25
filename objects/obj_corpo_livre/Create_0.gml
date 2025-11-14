@@ -9,8 +9,8 @@ switch(global.player){
 	case 1:
 		front  = vazioC_front;
 		back = vazioC_back;
-		right = vazioC_right;
-		left = vazioC_left;
+		right = vazioC_right_walk;
+		left = vazioC_left_walk;
 	break;
 }
 sprite_index = right;
