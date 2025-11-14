@@ -1,0 +1,1 @@
+hover = (mouse_x > x - largura/2 && mouse_x < x + largura/2 && mouse_y > y - altura/2 && mouse_y < y + altura/2);
