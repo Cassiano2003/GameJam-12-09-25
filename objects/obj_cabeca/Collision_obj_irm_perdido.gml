@@ -7,9 +7,7 @@ for (var i=0; i < array_length(corpo);i++){
 		instance_destroy(corpo[i]);
 		corpo[i] =  instance_create_layer(dados[0],dados[1],"Instances",obj_irmao_perdido);
 		corpo[i].indice = i;
-		corpo[i].x = dados[0] ;
-		corpo[i].y = dados[1];
-		corpo[i].direction = dados[2];  // Direção naquel direçao
 		 instance_destroy(other);
+		 break;
 	}
 }

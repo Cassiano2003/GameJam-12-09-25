@@ -20,4 +20,4 @@ z = 10; // Altura
 
 //Atributos
 vida = 5;
-dado = 1;
+dano = 1;
