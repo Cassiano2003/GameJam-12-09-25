@@ -1,14 +1,19 @@
-// cor do botão dependendo do hover
-if (hover){ 
-	draw_set_color(cor_hover);
-}else{
-	draw_set_color(cor_normal);
-}
-// retângulo
-draw_rectangle(x - largura/2, y - altura/2, x + largura/2, y + altura/2, false);
+// Detecta hover baseado na sprite
+hover = point_in_rectangle(mouse_x, mouse_y,
+    x - sprite_width/2, y - sprite_height/2,
+    x + sprite_width/2, y + sprite_height/2);
 
-// texto
-draw_set_color(c_black);
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
-draw_text(x, y, texto);
+// Sombra atrás
+if (hover) {
+    draw_set_alpha(0.4);
+    draw_set_color(c_black);
+    draw_rectangle(
+        x - sprite_width/2 + 4, y - sprite_height/2 + 4,
+        x + sprite_width/2 + 4, y + sprite_height/2 + 4,
+        false
+    );
+    draw_set_alpha(1);
+}
+
+// Desenha sprite (botão)
+draw_sprite(sprite_index, image_index, x, y);
