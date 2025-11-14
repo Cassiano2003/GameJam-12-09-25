@@ -12,7 +12,7 @@ if (!invulneravel) {
         invulneravel = true;
         timer_invulneravel = tempo_invulneravel;
 
-		var ter_habilidades = true;
+       var ter_habilidades = true;
        for(var i=quantos_gomos-1; i  >  0;i--){
 			if (instance_exists(corpo[i]) && corpo[i].object_index != obj_corpo_livre){
 				instance_destroy(corpo[i]);

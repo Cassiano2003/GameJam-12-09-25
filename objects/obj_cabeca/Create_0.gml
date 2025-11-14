@@ -54,5 +54,5 @@ qnt_historico = 100;
 
 
 invulneravel = false;
-tempo_invulneravel = 90; // 1.5 segundos (60 FPS)
+tempo_invulneravel = 180; // 1.5 segundos (60 FPS)
 timer_invulneravel = 0;

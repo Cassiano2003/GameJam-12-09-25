@@ -8,6 +8,7 @@ for (var i=0; i < array_length(corpo);i++){
 		corpo[i] =  instance_create_layer(dados[0],dados[1],"Instances",obj_irmao_perdido);
 		corpo[i].indice = i;
 		 instance_destroy(other);
+		 instance_create_layer(0,0,"Instances",obj_irm_perdido);
 		 break;
 	}
 }

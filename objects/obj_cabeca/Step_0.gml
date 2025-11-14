@@ -109,17 +109,20 @@ if (array_length(corpo) < tamanho_inicial){
 // Impedir de sair da sala - APÓS todo o movimento
 function clamp_to_room() {
     var margin = 16; // Margem de segurança
+	var _dano = false;
     
     // Limitar coordenadas X
     if (x < margin) {
         x = margin;
         hspeed = abs(hspeed); // Ricochete
         current_wander_dir = random_range(0, 180); // Virar para dentro
+		_dano = true;
     }
     if (x > room_width - margin) {
         x = room_width - margin;
         hspeed = -abs(hspeed); // Ricochete
         current_wander_dir = random_range(180, 360); // Virar para dentro
+		_dano = true;
     }
     
     // Limitar coordenadas Y
@@ -127,12 +130,47 @@ function clamp_to_room() {
         y = margin;
         vspeed = abs(vspeed); // Ricochete
         current_wander_dir = random_range(90, 270); // Virar para dentro
+		_dano = true;
     }
     if (y > room_height - margin) {
         y = room_height - margin;
         vspeed = -abs(vspeed); // Ricochete
         current_wander_dir = random_range(-90, 90); // Virar para dentro
+		_dano = true;
     }
+	
+	if (_dano){
+		var quantos_gomos = array_length(corpo);
+		if (!invulneravel && quantos_gomos > 0){
+			// 1. Destruir a instância do objeto
+			var ultimo_segmento = corpo[quantos_gomos-1];
+			ultimo_segmento.image_alpha = 0.1;
+			instance_destroy(ultimo_segmento);
+	
+			// Ativa invulnerabilidade
+		    invulneravel = true;
+			var ter_habilidades = true;
+		    timer_invulneravel = tempo_invulneravel;
+	
+			for(var i=quantos_gomos-1; i  >  0;i--){
+				if (instance_exists(corpo[i]) && corpo[i].object_index != obj_corpo_livre){
+					instance_destroy(corpo[i]);
+					array_delete(corpo, i, 1);
+					ter_habilidades = false;
+					// 🔁 ATUALIZAR OS ÍNDICES DOS OBJETOS RESTANTES
+		            for (var j = i; j < array_length(corpo); j++) {
+		                if (instance_exists(corpo[j])) {
+		                    corpo[j].indice = j;
+		                }
+		            }
+					break;
+				}
+			}
+			if (ter_habilidades){
+				array_delete(corpo, quantos_gomos-1, 1);
+			}
+		}
+	}
 }
 
 // Chamar a função no final do Step Event
