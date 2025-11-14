@@ -1,7 +1,4 @@
 // Create Event
-move_speed = 2;
-detection_range = 200;
-attack_range = 50;
 state = "idle"; // idle, chase, attack
 
 // Create Event (adicione estas variáveis)
@@ -13,11 +10,6 @@ current_wander_dir = random(360); // Direção inicial aleatória
 depth = 0; // Objetos com Y maior aparecem atrás
 
 // Create Event
-sprite_index = spr_enemy;
 image_xscale = 2;
 image_yscale = 2;
 z = 10; // Altura
-
-//Atributos
-vida = 5;
-dano = 1;

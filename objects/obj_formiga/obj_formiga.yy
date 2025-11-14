@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_food",
+  "%Name":"obj_formiga",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_food",
+  "name":"obj_formiga",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj Itens",
-    "path":"folders/Objetos/Obj Itens.yy",
+    "name":"Obj Enemy",
+    "path":"folders/Objetos/Obj Enemy.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy",
+    "path":"objects/obj_enemy/obj_enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_food",
-    "path":"sprites/spr_food/spr_food.yy",
+    "name":"spr_enemy",
+    "path":"sprites/spr_enemy/spr_enemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

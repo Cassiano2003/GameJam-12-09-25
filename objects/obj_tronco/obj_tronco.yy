@@ -9,7 +9,10 @@
     "name":"Obj Itens",
     "path":"folders/Objetos/Obj Itens.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_itens",
+    "path":"objects/obj_itens/obj_itens.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

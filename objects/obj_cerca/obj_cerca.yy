@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_irm_perdido",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_cerca",
+  "eventList":[],
   "managed":true,
-  "name":"obj_irm_perdido",
+  "name":"obj_cerca",
   "overriddenProperties":[],
   "parent":{
     "name":"Obj Itens",
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_irm_perdido",
-    "path":"sprites/spr_irm_perdido/spr_irm_perdido.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

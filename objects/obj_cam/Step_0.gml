@@ -20,5 +20,5 @@ if (instance_exists(target)) {
     cam_y = clamp(cam_y, view_height / 2, room_height - view_height / 2);
     
     // Aplicar visualização 2.5D
-    camera_set_view_pos(view_camera[0], cam_x - 480, cam_y - 270);
+    camera_set_view_pos(view_camera[0], cam_x -  (view_width / 2), cam_y - (view_height / 2));
 }

@@ -25,7 +25,7 @@ if (!invulneravel && quantos_gomos > 0){
 		}
 	}
 	if (ter_habilidades){
-		array_delete(corpo, quantos_gomos-1, 1);
+		array_delete(corpo, quantos_gomos-1, other.dano);
 	}
 	instance_destroy(other);
 }
