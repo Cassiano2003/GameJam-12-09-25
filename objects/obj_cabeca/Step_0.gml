@@ -101,7 +101,7 @@ if (keyboard_check_pressed(vk_space) && shoot_cooldown <= 0) {
 
 
 //Funçlao de morte
-if (array_last(corpo) < tamanho_inicial){
+if (array_length(corpo) < tamanho_inicial){
 	room_restart();
 }
 
