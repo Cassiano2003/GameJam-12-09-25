@@ -10,8 +10,8 @@
   "name":"obj_tiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj Enemy",
-    "path":"folders/Objetos/Obj Enemy.yy",
+    "name":"Obj Player",
+    "path":"folders/Objetos/Obj Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
