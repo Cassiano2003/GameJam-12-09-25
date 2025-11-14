@@ -8,8 +8,8 @@ if (hover) {
     draw_set_alpha(0.4);
     draw_set_color(c_black);
     draw_rectangle(
-        x - sprite_width/2 + 4, y - sprite_height/2 + 4,
-        x + sprite_width/2 + 4, y + sprite_height/2 + 4,
+        x - sprite_width/2 + 2, y - sprite_height/2 + 2,
+        x + sprite_width/2 + 2, y + sprite_height/2 + 2,
         false
     );
     draw_set_alpha(1);
