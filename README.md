@@ -48,6 +48,6 @@ O objetivo é criar um jogo do zero em pouco tempo, explorando criatividade e tr
 
 1. Clone o repositório:
    ```bash
-   git clone git@github.com:SEU_USUARIO/GameJam-12-09-25.git
+   git clone git@github.com:Cassiano2003/GameJam-12-09-25.git
 2. Colocar no GamaMaker:\
     Vai em **importar** e procure o arquivo **Jogo_GameJam.yyp** que esta no projeto e pronto, o jogo vai ser carregado no **GameMaker**.
