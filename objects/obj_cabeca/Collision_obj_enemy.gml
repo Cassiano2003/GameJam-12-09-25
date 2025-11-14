@@ -14,7 +14,6 @@ if (!invulneravel && quantos_gomos > 0){
 		if (instance_exists(corpo[i]) && corpo[i].object_index != obj_corpo_livre){
 			instance_destroy(corpo[i]);
 			array_delete(corpo, i, 1);
-			show_debug_message("Removel o gomo: "+ string(i));
 			ter_habilidades = false;
 			// 🔁 ATUALIZAR OS ÍNDICES DOS OBJETOS RESTANTES
             for (var j = i; j < array_length(corpo); j++) {
