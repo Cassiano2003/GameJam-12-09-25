@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"formiga_right",
   "bboxMode":0,
-  "bbox_bottom":47,
+  "bbox_bottom":22,
   "bbox_left":0,
-  "bbox_right":61,
+  "bbox_right":29,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":48,
+  "height":23,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"0203d275-7ea2-404a-a9fc-215660bef18a","blendMode":0,"displayName":"default","isLocked":false,"name":"0203d275-7ea2-404a-a9fc-215660bef18a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":62,
+  "width":30,
 }

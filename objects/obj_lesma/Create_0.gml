@@ -1,9 +1,9 @@
 event_inherited();
 tipo_inimigo = object_index;
 //Atributos
-detection_range = 200;
-move_speed = 2;
-attack_range = 50;
-dano = 1;
+dano = 3;
+detection_range = 500;
+move_speed = 1;
+attack_range = 100;
 vida = 10;
 sprite_index = lesma_right;
