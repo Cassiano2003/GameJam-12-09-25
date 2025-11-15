@@ -62,11 +62,7 @@ if(andando){
             
             i++; // Só incrementa se não removeu nada
         }
-<<<<<<< HEAD
-		audio_sound_loop(snd_TchucTchuc,1);	
-		audio_sound_gain(snd_TchucTchuc, 1, 0); // Volume da Musica.
-=======
->>>>>>> d8ea8f8 (14-11-2025_23-05-50-Cassiano)
+
     }
 }
 
