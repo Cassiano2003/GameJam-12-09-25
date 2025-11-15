@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_restart",
-    "path":"sprites/spr_restart/spr_restart.yy",
+    "name":"spr_resetar",
+    "path":"sprites/spr_resetar/spr_resetar.yy",
   },
   "spriteMaskId":null,
   "visible":true,
