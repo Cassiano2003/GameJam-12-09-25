@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
+  "%Name":"obj_formigueiro",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_cerca","path":"objects/obj_cerca/obj_cerca.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy",
+  "name":"obj_formigueiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj Enemy",
-    "path":"folders/Objetos/Obj Enemy.yy",
+    "name":"Obj Itens",
+    "path":"folders/Objetos/Obj Itens.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_itens",
+    "path":"objects/obj_itens/obj_itens.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_formigueiro",
+    "path":"sprites/spr_formigueiro/spr_formigueiro.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

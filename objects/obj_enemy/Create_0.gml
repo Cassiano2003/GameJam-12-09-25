@@ -13,3 +13,5 @@ depth = 0; // Objetos com Y maior aparecem atrás
 image_xscale = 2;
 image_yscale = 2;
 z = 10; // Altura
+
+colide_cerca = false;

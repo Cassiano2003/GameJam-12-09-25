@@ -7,5 +7,7 @@ z = 10; // Altura*/
 
 
 // Posicionamento aleatório
-x = random(room_width - 32) + 16;
-y = random(room_height - 540 - 30)+ 540 + 15;
+if(sprite_index != spr_limite_cerca){
+	x = random(room_width - 32) + 16;
+	y = random(room_height - 540 - 30)+ 540 + 15;
+}

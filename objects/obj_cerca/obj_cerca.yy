@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_cerca",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_cerca",
   "overriddenProperties":[],
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_limite_cerca",
+    "path":"sprites/spr_limite_cerca/spr_limite_cerca.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
