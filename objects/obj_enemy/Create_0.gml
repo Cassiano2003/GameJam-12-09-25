@@ -14,4 +14,7 @@ image_xscale = 2;
 image_yscale = 2;
 z = 10; // Altura
 
+x = random(room_width - 32) + 16;
+y = random(room_height - 540 - 30)+ 540 + 15;
+
 colide_cerca = false;
