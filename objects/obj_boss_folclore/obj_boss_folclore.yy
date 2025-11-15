@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_boss",
-    "path":"sprites/spr_enemy_boss/spr_enemy_boss.yy",
+    "name":"formiga_right",
+    "path":"sprites/formiga_right/formiga_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,

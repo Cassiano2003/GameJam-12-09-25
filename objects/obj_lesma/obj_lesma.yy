@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy",
-    "path":"sprites/spr_enemy/spr_enemy.yy",
+    "name":"lesma_right",
+    "path":"sprites/lesma_right/lesma_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,

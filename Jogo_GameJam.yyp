@@ -95,6 +95,8 @@
     {"id":{"name":"claudio_front","path":"sprites/claudio_front/claudio_front.yy",},},
     {"id":{"name":"claudio_left","path":"sprites/claudio_left/claudio_left.yy",},},
     {"id":{"name":"claudio_right","path":"sprites/claudio_right/claudio_right.yy",},},
+    {"id":{"name":"formiga_left","path":"sprites/formiga_left/formiga_left.yy",},},
+    {"id":{"name":"formiga_right","path":"sprites/formiga_right/formiga_right.yy",},},
     {"id":{"name":"inicialC_back","path":"sprites/inicialC_back/inicialC_back.yy",},},
     {"id":{"name":"inicialC_front","path":"sprites/inicialC_front/inicialC_front.yy",},},
     {"id":{"name":"inicialC_left","path":"sprites/inicialC_left/inicialC_left.yy",},},
