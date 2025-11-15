@@ -40,7 +40,7 @@ O objetivo é criar um jogo do zero em pouco tempo, explorando criatividade e tr
 - 🧩 GameMaker Studio 2 / 2024  
 - 💻 Git & GitHub  
 - 🎨 Krita / Aseprite / IbisPaint 
-- 🔊 Audacity / Bfxr  
+- 🔊 BandLab
 
 ---
 
