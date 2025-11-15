@@ -62,10 +62,6 @@ if(andando){
             
             i++; // Só incrementa se não removeu nada
         }
-<<<<<<< HEAD
-
-=======
->>>>>>> 96260a0 (14-11-2025_23-29-16-Cassiano)
     }
 }
 
