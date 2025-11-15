@@ -1,17 +1,17 @@
 event_inherited();
 var nova_direcao = direction;
 
-if ( keyboard_check(vk_right) ) nova_direcao =  0;
-if ( keyboard_check(vk_left)) nova_direcao = 180;
+if (keyboard_check(vk_right)) nova_direcao =  0;
+if (keyboard_check(vk_left)) nova_direcao = 180;
 if (keyboard_check(vk_down)) nova_direcao = 270;
-if ( keyboard_check(vk_up)) nova_direcao= 90;
+if (keyboard_check(vk_up)) nova_direcao= 90;
 
 if (abs (nova_direcao - direction) == 90 || abs (nova_direcao - direction) == 270){
 	direction = nova_direcao;
 }
 
 // Movimento
-if ( keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_down) ||  keyboard_check(vk_up)){
+if (keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_down) ||  keyboard_check(vk_up)){
 	hspeed = lengthdir_x(move_speed,direction);
 	vspeed = lengthdir_y(move_speed,direction);
 	andando = true;
@@ -42,7 +42,7 @@ if(crecimento_pendente > 0){
 }
 
 // Cada segmento pega uma posição específica do histórico
-if (andando) {
+if(andando){
     var i = 0;
     while (i < array_length(corpo)) {
         // Verificar se a instância existe
@@ -62,6 +62,7 @@ if (andando) {
             
             i++; // Só incrementa se não removeu nada
         }
+		audio_sound_loop(snd_TchucTchuc,1);	
     }
 }
 

@@ -14,3 +14,5 @@ switch(global.player){
 	break;
 }
 sprite_index = right;
+
+somPassos = -1;   // armazena o ID do som quando tocar
