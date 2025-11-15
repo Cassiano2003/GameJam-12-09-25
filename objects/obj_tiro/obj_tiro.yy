@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tiro",
-    "path":"sprites/spr_tiro/spr_tiro.yy",
+    "name":"tiro_right",
+    "path":"sprites/tiro_right/tiro_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,
