@@ -64,7 +64,7 @@ function clamp_to_room() {
     }
     
     // Limitar coordenadas Y
-    if (y < margin) {
+    if (y < margin || colide_cerca) {
         y = margin;
         vspeed = abs(vspeed); // Ricochete
         current_wander_dir = random_range(90, 270); // Virar para dentro
@@ -73,6 +73,7 @@ function clamp_to_room() {
         y = room_height - margin;
         vspeed = -abs(vspeed); // Ricochete
         current_wander_dir = random_range(-90, 90); // Virar para dentro
+		colide_cerca = false;
     }
 }
 

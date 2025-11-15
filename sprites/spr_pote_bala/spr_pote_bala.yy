@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_pote_bala",
   "bboxMode":0,
-  "bbox_bottom":23,
+  "bbox_bottom":44,
   "bbox_left":0,
-  "bbox_right":8,
+  "bbox_right":16,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -25,7 +25,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":45,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"bdf749ce-8b0b-4db7-a519-60415cca2395","blendMode":0,"displayName":"default","isLocked":false,"name":"bdf749ce-8b0b-4db7-a519-60415cca2395","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -122,5 +122,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":9,
+  "width":17,
 }

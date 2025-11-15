@@ -1,0 +1,1 @@
+colide_cerca = true;

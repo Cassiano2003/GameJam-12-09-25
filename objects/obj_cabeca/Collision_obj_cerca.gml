@@ -28,5 +28,4 @@ if (!invulneravel && quantos_gomos > 0){
 		array_delete(corpo, quantos_gomos-1, 1);
 	}
 	direction = 270;
-	instance_destroy(other);
 }
