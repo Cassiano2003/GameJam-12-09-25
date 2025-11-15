@@ -1,0 +1,1 @@
+audio_stop_all(); // Parar de tocar som anterior.
