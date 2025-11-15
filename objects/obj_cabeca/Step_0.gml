@@ -62,8 +62,11 @@ if(andando){
             
             i++; // Só incrementa se não removeu nada
         }
+<<<<<<< HEAD
 		audio_sound_loop(snd_TchucTchuc,1);	
 		audio_sound_gain(snd_TchucTchuc, 1, 0); // Volume da Musica.
+=======
+>>>>>>> d8ea8f8 (14-11-2025_23-05-50-Cassiano)
     }
 }
 
@@ -103,12 +106,8 @@ if (keyboard_check_pressed(vk_space) && shoot_cooldown <= 0) {
 //Funcao de morte
 if (array_length(corpo) < tamanho_inicial){
 	room_goto(rm_gameOver);
+	//room_restart();
 }
-
-if (inimigos_mortos == 10){
-	room_goto(rm_boss_folclore);
-}
-
 
 // Impedir de sair da sala - APÓS todo o movimento
 function clamp_to_room() {

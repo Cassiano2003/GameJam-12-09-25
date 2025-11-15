@@ -1,4 +1,5 @@
 event_inherited();
+tipo_inimigo = object_index;
 //Atributos
 dano = 3;
 detection_range = 500;

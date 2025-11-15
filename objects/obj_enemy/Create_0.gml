@@ -8,7 +8,7 @@ current_wander_dir = random(360); // Direção inicial aleatória
 
 // Sistema de depth para 2.5D
 depth = 0; // Objetos com Y maior aparecem atrás
-
+tipo_inimigo = 0;
 // Create Event
 image_xscale = 2;
 image_yscale = 2;

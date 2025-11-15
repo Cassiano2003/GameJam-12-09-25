@@ -1,4 +1,5 @@
 event_inherited();
+tipo_inimigo = object_index;
 //Atributos
 detection_range = 200;
 move_speed = 2;
