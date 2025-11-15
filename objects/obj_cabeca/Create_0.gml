@@ -1,6 +1,6 @@
 event_inherited();
 // Tornar o objeto persistente
-persistent = true;
+//persistent = true;
 //Escolja do player
 global.player = 0;
 switch(global.player){

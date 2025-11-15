@@ -100,8 +100,8 @@ if (keyboard_check_pressed(vk_space) && shoot_cooldown <= 0) {
 
 //Funcao de morte
 if (array_length(corpo) < tamanho_inicial){
-	room_goto(rm_gameOver);
-	//room_restart();
+	//room_goto(rm_gameOver);
+	room_restart();
 }
 
 // Impedir de sair da sala - APÓS todo o movimento
