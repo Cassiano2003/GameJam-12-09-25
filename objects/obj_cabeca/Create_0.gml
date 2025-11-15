@@ -1,4 +1,6 @@
 event_inherited();
+// Tornar o objeto persistente
+persistent = true;
 //Escolja do player
 global.player = 0;
 switch(global.player){
@@ -19,6 +21,7 @@ switch(global.player){
 // Movimentação
 move_speed = 4;
 andando = false;
+inimigos_mortos = 0;
 hspeed = 0;
 vspeed = 0;
 direction = 0;

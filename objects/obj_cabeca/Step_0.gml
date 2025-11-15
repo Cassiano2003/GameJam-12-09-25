@@ -104,6 +104,10 @@ if (array_length(corpo) < tamanho_inicial){
 	room_goto(rm_gameOver);
 }
 
+if (inimigos_mortos == 10){
+	room_goto(rm_boss_folclore);
+}
+
 
 // Impedir de sair da sala - APÓS todo o movimento
 function clamp_to_room() {

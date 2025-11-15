@@ -27,5 +27,5 @@ if (!invulneravel && quantos_gomos > 0){
 	if (ter_habilidades){
 		array_delete(corpo, quantos_gomos-1, 1);
 	}
-	direction = 270;
+	nova_direcao = 270;
 }

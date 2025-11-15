@@ -68,12 +68,12 @@ function clamp_to_room() {
         y = margin;
         vspeed = abs(vspeed); // Ricochete
         current_wander_dir = random_range(90, 270); // Virar para dentro
+		colide_cerca = false;
     }
     if (y > room_height - margin) {
         y = room_height - margin;
         vspeed = -abs(vspeed); // Ricochete
         current_wander_dir = random_range(-90, 90); // Virar para dentro
-		colide_cerca = false;
     }
 }
 
